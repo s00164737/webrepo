@@ -1,0 +1,155 @@
+*
+{
+    margin:0;
+}
+
+header
+{
+    text-align: left;
+    height:100px;
+    background: url(../images/bcklogo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav
+{
+    border:1px solid white;
+}
+
+body
+{
+    background-color:lightblue;
+    color:black;
+}
+
+header h1
+{
+    margin-left:10%;
+    padding: 30px;
+    color:rgb(4, 105, 105);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.navbar
+{
+    background-color:rgb(4, 72, 104);
+    position:relative;
+}
+
+.navbar ul
+{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+.navbar li
+{
+    margin-left:5%;
+    display:inline-block;
+}
+
+.navbar li a
+{
+    color:white;
+    background-color: rgb(4, 72, 104);
+    display:block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navbar ul ul
+{
+    position: absolute;
+    top:100%;
+    display:none;
+}
+
+.navbar ul ul li
+{
+
+    display:block;
+}
+
+.navbar li:hover ul
+{
+    display:block;
+}
+
+.navbar ul ul li a:hover
+{
+    background-color:rgb(4, 105, 105);
+}
+
+.navbar a:hover
+{
+    background-color:rgb(4, 105, 105);
+}
+
+#active
+{
+    border: 1px dashed rgb(4,105,105);
+}
+
+#firstH2
+{
+    text-align: center;
+    font-size:x-large;
+}
+
+#mainIndexImg
+{
+    margin-left:15%;
+    margin-right:15%;
+    width:69%;
+    height:200px;
+    border:1px solid black;
+}
+
+.leftSide
+{
+    float:left;
+    width:15%;
+    margin-bottom:10px;
+    padding:5px;
+}
+
+#centerSide
+{
+    text-align: justify;
+    width:90%;
+    margin-top:5px;
+    margin-left:10px;
+    margin-right:10px;
+    padding:10px;
+    margin-bottom:100px;
+}
+
+.rightSide
+{
+    float:right;
+    width:15%;
+    margin-bottom:10px;
+    padding:5px;
+}
+
+.sideImage
+{
+    width:100%;
+    margin:1%;
+    margin-bottom:25px;
+    border:1px solid black;
+}
+
+footer
+{
+    font-size:large;
+    text-align: center;
+    color:white;
+    background-color: rgb(4, 72, 104);
+    margin-top:50px;
+    padding:10px;
+    height:30px;
+}
