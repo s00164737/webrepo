@@ -69,7 +69,7 @@ header h1
 
 .navbar ul ul li
 {
-
+    position:relative;
     display:block;
 }
 
@@ -145,11 +145,159 @@ header h1
 
 footer
 {
+    clear:both;
     font-size:large;
-    text-align: center;
     color:white;
     background-color: rgb(4, 72, 104);
-    margin-top:50px;
-    padding:10px;
-    height:30px;
+    margin-top:25px;
+    padding:12px;
+    height:50px;
+}
+
+footer ul
+{
+    text-align: center;
+}
+
+footer li
+{
+    display:inline-block;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+footer li a
+{
+    
+    text-decoration: none;
+    color:rgb(47, 203, 214);
+}
+
+footer p
+{
+    text-align: center;
+    margin-top:5px;
+    padding:5
+}
+
+.map
+{
+    padding:5px;
+    margin:5px;
+    border:1px dashed white;
+    width:40%;
+    float:right;
+}
+
+.iframe_map
+{
+    width: 98%;
+    height:450px;
+}
+
+#firstH2_About
+{
+    text-align: center;
+    font-size:250%;
+}
+
+.mainTextAbout
+{
+    width:58%;
+    float:left;
+}
+
+.mainTextAbout p
+{
+    text-align: justify;
+    margin-left:24px;
+    margin-right:24px;
+}
+
+.aboutRight
+{
+    width:35%;
+    float:right;
+}
+
+.aboutSection
+{
+    margin-top: 25px;
+    border:1px dotted white;
+    float:left;
+    width:55%;
+}
+
+.aboutSection p
+{
+    text-align: justify;
+    padding:6px;
+    margin: 6px 6px 12px 12px;
+}
+
+.aboutToRight
+{
+    float:right;
+    width:55%;
+}
+
+.aboutToLeft
+{
+    padding:15px;
+    float:left;
+    width:30%;
+}
+
+.rImage
+{
+    width:75%;
+    padding:6px;
+    margin:7px 7px 2px 2px;
+    border: 1px dashed rgb(4, 72, 104);
+    min-height:225px;
+}
+
+#firstH2_Places
+{
+    font-size:250%;
+}
+
+.placesSection h3
+{
+    text-align: center;
+}
+
+h3 a
+{
+    text-decoration: none;
+    color:black;
+}
+
+.placesRight
+{
+    width:25%;
+    float:right;
+}
+
+.placesSection
+{
+    margin-top: 25px;
+    border:1px dotted white;
+    float:left;
+    width:65%;
+    max-height: 250px;
+    overflow:auto;
+}
+
+.placesToLeft
+{
+    /*border:2px solid rgb(4, 72, 104);*/
+    border:2px solid white;
+    width:40%;
+    max-height:200px;
+}
+
+.placesSection p
+{
+    padding-top: 10px;
 }
