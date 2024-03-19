@@ -1,0 +1,151 @@
+<!-- Homepage farm -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Metadata of the site-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name ="description" content="Content page of Sligo's Wild Adventures college project">
+        <meta name="keywords" content="college, project, sligo, wild, adventure, contact">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+
+    <!-- Body -->
+    <body>
+        <!--Header-->
+        <a id="top"></a>
+        <img style="float:left; height:100px;z-index:999;" src="images/logo.png" alt="Logo">
+        <header>
+            <h1 id="logoText">
+                Sligo's Wild Adventures
+            </h1>
+        </header>
+            <!-- Navigation-->
+            <nav class="navbar">
+                <ul>
+                    <li> <a href="index.html"> Home </a></li>
+                    <li>
+                        <a href="places.html">Places</a>
+                        <ul>
+                            <li><a href="doorlypark.html">Doorly Park</a></li>
+                            <li><a href="hazelwood.html">Hazelwood</a></li>
+                            <li><a href="knocknarea.html">Knocknarea</a></li>
+                            <li><a href="rossespoint.html">Rosses Point</a></li>
+                            <li><a href="strandhill.html">Strandhill</a></li>
+                        </ul>
+                    </li>
+                    <li id="active"><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html"> Contact </a></li>
+                </ul>
+            </nav>
+        
+
+        <!-- Main -->
+        <main>
+
+            <section class="mainTextContact">
+                <h2 id="firstH2_About">
+                    Contact us
+                </h2>
+                <section class="contactSection">
+                <h3>
+                    We will be very happy for your feedback.
+                </h3>
+                <p>
+                    Feel free to send us a query and we will respond to you as soon as we can.
+                </p>
+                </section>
+                <section class="contactSection">
+                    <h3>
+                        Alternative contact methods
+                    </h3>
+                </section>
+                <section class="contactSection">
+                    <h4>
+                        Phone number
+                    </h4>
+                    <p>
+                        089 123-4567
+                    </p>
+                    <h4>
+                        Fax
+                    </h4>
+                    <p>
+                        (123) 456-7890
+                    </p>
+                    <h4>
+                        Email
+                    </h4>
+                    <p>
+                        SligoWildAdventure@swa.ie
+                    </p>
+                </section>
+            </section>
+
+            <section class="contactForm">
+                <h3>Fill in the form to contact us: </h3>
+    
+                <form action="http://year1.ccpdev.me/FormText.pgp" method="post">
+
+                <section class="formSection">
+                    <label for="first_name">First name:<span class="required">*</span></label>
+                    <input type="text" name="first_name" id="first_name" autofocus required><br>
+                    <label for="last_name">Last name:<span class="required">*</span></label>
+                    <input type="text" name="last_name" id="last_name" required><br>
+                    <label for="email">Email:<span class="required">*</span></label>
+                    <input type="email" name="email" id="email" required placeholder="name@mail.com"><br>
+                </section>
+
+                <section class="formSection">
+                    <label for="gender">Gender: </label>
+                    <input type="radio" id="gender" name="gender" value="male">Male
+                    <input type="radio" id="gender" name="gender" value="female">Female
+                    <input type="radio" id="gender" name="gender" value="other" checked>Prefer not to say
+                </section>
+
+                <section class="formSection">
+                    <label for="internet"> Where did you hear about us: </label>
+                    <fieldset>
+                        <input type="checkbox" id="internet" name="internet" value="internet"> Internet <br>
+                        <input type="checkbox" class="marginl" id="hearr" name="paper" value="paper"> Newspaper <br>
+                        <input type="checkbox" class="marginl" id="hear" name="tv" value="tv">  TV Ad <br>
+                        <input type="checkbox" class="marginl" id="hear" name="friend" value="friend">  Friend <br>
+                        <input type="checkbox" class="marginl" id="hear" name="Add" value="Add"> Other <br>
+                    </fieldset>
+                    <br>
+                </section>
+
+                <section class="formSection">
+                    <label for="message">Message:<span class="required">*</span></label>
+                    <p></p>
+                    <textarea cols="50" rows="6" id="message" name="message" placegolder="Your message must be less than 200 characters"
+                    data-maxlength="200"></textarea> <br>
+                </section>
+
+                <section>
+                    <input type="submit" name="submit" id="button" value="Submit">
+                    <input type="reset" name="reset" id="reset" required>
+                </form>
+                </section>
+
+                <p style="margin-left:138px"><span class="required">*</span> <em> indicates a required field</em></p>
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="places.html">Places</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#top">Contact</a></li>
+            </ul>
+            <p>&copy;2024 Sligo's Wild Adventures</p>
+            <p>College project for website development</p>
+        </footer>
+    </body>
+
+</html>
