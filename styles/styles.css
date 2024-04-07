@@ -20,6 +20,7 @@ nav
 
 body
 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color:lightblue;
     color:black;
 }
@@ -199,7 +200,6 @@ footer p
 {
     text-align: center;
     margin-top:5px;
-    padding:5
 }
 
 .map
@@ -337,6 +337,17 @@ h3 a
     padding-top: 10px;
 }
 
+.placesA
+{
+    text-decoration:none;
+    color:rgb(63, 117, 231);
+}
+
+.placesA:hover
+{
+    color:rgb(39, 132, 145);
+}
+
 .mainTextContact
 {
     float:left;
@@ -386,3 +397,193 @@ h3 a
     color:rgb(19, 100, 107);
     text-decoration: none;
 }
+
+#subActive
+{
+    border: 2px dotted rgb(4,105,105);
+}
+
+
+#subActive a:hover
+{
+    background-color: rgb(14, 62, 114);
+}
+
+#doorlyMainImage
+{
+    height:150px;
+    margin-left:25%;
+    margin-right:25%;
+    width:49%;
+    height:300px;
+    border:1px solid rgb(255, 255, 255);
+}
+
+.doorlyLeftSection
+{
+    float:left;
+    width:70%;
+    border:1px dotted white;
+    margin-left:25px;
+    margin-bottom:10px;
+    padding-bottom:5px;
+}
+
+.doorlyAside
+{
+    float:right;
+    width:25%;
+    display:block;
+}
+
+.doorlyAside img
+{
+    height:250px;
+    width:90%;
+    margin-top:25px;
+    padding:10px;
+    border:1px dashed white;
+}
+
+.hikeSpecs
+{
+    padding-top:25px;
+    padding-left:25px;
+    margin-bottom:12px;
+
+    
+}
+
+.hikeSpecs h4
+{
+    margin-top: 6px;
+}
+
+.hikeDesc, .hikeDesc2
+{
+    padding-left:30px;
+    padding-top:24px;
+    margin-bottom:12px;
+    max-height:400px;
+    overflow:auto;
+}
+
+.hikeDesc p, .hikeDesc2 p
+{
+    text-align: justify;
+    padding:3px;
+}
+
+.hikeDesc h4, .hikeDesc2 h4
+{
+    margin-top:12px;
+    padding:6px;
+}
+
+.hikeDesc a, .hikeDesc2 a
+{
+    text-decoration:none;
+    margin:6px;
+    display:block;
+    color:rgb(63, 117, 231);
+}
+
+.hikeDesc a:hover, .hikeDesc2 a:hover
+{
+    color:rgb(39, 132, 145);
+}
+
+.hikeDesc img, .hikeSpecs img
+{
+    margin:6px;
+    border:1px solid black;
+    width:300px;
+    height:225px;
+    display:inline;
+    float:right;
+}
+
+.hikeDesc2 img
+{
+    margin:6px;
+    border:1px solid black;
+    width:300px;
+    height:225px;
+    display:inline;
+    float:left;
+}
+
+.hikeDesc2 ol
+{
+    margin-left:24px;
+    text-align: center;
+}
+
+.threeImages img
+{
+    width:31%;
+    display:inline;
+    margin:2px;
+    border:1px solid black;
+}
+
+
+table
+{
+    margin-left:10px;
+}
+
+table, th, td
+{
+    border:1px solid black;
+    padding:2px;
+}
+
+#hazelwoodMainImage
+{
+    height:175px;
+    margin-left:15%;
+    margin-right:15%;
+    width:69%;
+    height:300px;
+    border:1px solid rgb(255, 255, 255);
+}
+
+.columns_2
+{
+    margin-top:24px;
+    margin-left:18px;
+    margin-right:18px;
+    padding:12px;
+    text-align: justify;
+    column-count: 2;
+    column-gap: 24px;
+
+}
+
+.columns_3
+{
+    margin-top:24px;
+    margin-left:6px;
+    margin-right:6px;
+    padding:12px;
+    text-align: justify;
+    column-count: 3;
+    column-gap: 18px;
+
+}
+
+.flexbox
+{
+    display:flex;
+    align-items:center;
+    background-color:lightblue;
+    border:1px solid white;
+    padding:18px;
+    flex-direction:column;
+    margin:8px;
+}
+
+
+
+

@@ -9,6 +9,7 @@
         <meta name ="description" content="Content page of Sligo's Wild Adventures college project">
         <meta name="keywords" content="college, project, sligo, wild, adventure, contact">
         <title>Contact Us</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         <link rel="stylesheet" href="styles/styles.css">
     </head>
 
@@ -87,7 +88,8 @@
             <section class="contactForm">
                 <h3>Fill in the form to contact us: </h3>
     
-                <form action="http://year1.ccpdev.me/FormText.pgp" method="post">
+                
+                <form action="http://foo.com" method="get">
 
                 <section class="formSection">
                     <label for="first_name">First name:<span class="required">*</span></label>
@@ -101,18 +103,18 @@
                 <section class="formSection">
                     <label for="gender">Gender: </label>
                     <input type="radio" id="gender" name="gender" value="male">Male
-                    <input type="radio" id="gender" name="gender" value="female">Female
-                    <input type="radio" id="gender" name="gender" value="other" checked>Prefer not to say
+                    <input type="radio" id="gender2" name="gender" value="female">Female
+                    <input type="radio" id="gender3" name="gender" value="other" checked>Prefer not to say
                 </section>
 
                 <section class="formSection">
                     <label for="internet"> Where did you hear about us: </label>
                     <fieldset>
                         <input type="checkbox" id="internet" name="internet" value="internet"> Internet <br>
-                        <input type="checkbox" class="marginl" id="hearr" name="paper" value="paper"> Newspaper <br>
-                        <input type="checkbox" class="marginl" id="hear" name="tv" value="tv">  TV Ad <br>
-                        <input type="checkbox" class="marginl" id="hear" name="friend" value="friend">  Friend <br>
-                        <input type="checkbox" class="marginl" id="hear" name="Add" value="Add"> Other <br>
+                        <input type="checkbox" class="marginl" id="hear1" name="paper" value="paper"> Newspaper <br>
+                        <input type="checkbox" class="marginl" id="hear2" name="tv" value="tv">  TV Ad <br>
+                        <input type="checkbox" class="marginl" id="hear3" name="friend" value="friend">  Friend <br>
+                        <input type="checkbox" class="marginl" id="hear4" name="Add" value="Add"> Other <br>
                     </fieldset>
                     <br>
                 </section>
@@ -120,16 +122,16 @@
                 <section class="formSection">
                     <label for="message">Message:<span class="required">*</span></label>
                     <p></p>
-                    <textarea cols="50" rows="6" id="message" name="message" placegolder="Your message must be less than 200 characters"
+                    <textarea cols="50" rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters"
                     data-maxlength="200"></textarea> <br>
                 </section>
 
                 <section>
                     <input type="submit" name="submit" id="button" value="Submit">
-                    <input type="reset" name="reset" id="reset" required>
-                </form>
+                    <input type="reset" name="reset" id="reset">
+                
                 </section>
-
+            </form>
                 <p style="margin-left:138px"><span class="required">*</span> <em> indicates a required field</em></p>
             </section>
 
@@ -144,7 +146,7 @@
                 <li><a href="#top">Contact</a></li>
             </ul>
             <p>&copy;2024 Sligo's Wild Adventures</p>
-            <p>College project for website development</p>
+            <p>College project</p>
         </footer>
     </body>
 
